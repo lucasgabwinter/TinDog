@@ -1,0 +1,172 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+/*****************HEADINGS********************/
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.seaction-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/*****************NAV BAR********************/
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar {
+    text-align: right;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+.navbar-nav {
+    margin-left: 300px;
+}
+
+/*****************DOWNLOAD BUTTONS********************/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/*****************TITLE********************/
+.iphone-picture {
+    width: 60%;
+    transform: rotate(15deg);
+    position: absolute;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    position: relative;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 5%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone-picture {
+        transform: rotate(0deg);
+        position: static;
+        text-align: center;
+    }
+}
+/*****************FEATURES********************/
+.icons {
+    font-size: 2.5rem;
+    margin: 0 auto 0;
+    color: #ef8172;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+.features-text {
+    color: #8f8f8f;
+}
+
+#features {
+    position: relative;
+    background-color: white;
+    padding: 7% 15%;
+}
+
+.feature-title {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+/*****************TESTIMONIALS********************/
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.carousel-item {
+    padding: 5% 15% 7% 15%;
+    transition: transform 2s ease;
+    opacity: 0.5s ease-out;
+}
+
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+/*****************PRESS********************/
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px;
+}
+/*****************PRICING********************/
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing {
+    width: 80%;
+    margin: 50px auto 50px;
+}
+
+/*****************CTA********************/
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+.footer-text {
+    font-size: 3rem;
+}
+
+/*****************FOOTER********************/
+#footer {
+    background-color: #fff;
+    padding: 5% 15% 3%;
+}
+
+.social-media-icons {
+    padding: 1%;
+}
